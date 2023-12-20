@@ -1,0 +1,18 @@
+touch .gitignore
+# Ignore node_modules directory
+node_modules
+
+# Ignore .env file
+
+
+# Ignore log files
+*.log
+
+# Ignore compiled files
+*.class
+*.jar
+*.war
+
+# Ignore IDE specific files
+.idea/
+.vscode/
