@@ -14,5 +14,6 @@ app.post("/createUser", authController.createUser);
 app.post("/login", authController.login);
 app.get("/accessToken/:accessToken", authController.validateToken);
 
-
 module.exports = app;
+
+
